@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+  
+ 
+<body>
+  
+  
+  
+
+  
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <nav class="navbar bg-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="D:\Bootstrap\img\earth 1.svg" alt="Logo" width="35" height="24" class="d-inline-block align-text-top">  
+          #BetterPlanetTogether
+          
+          
+
+        
+        <div class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Know the SDG's</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Collaborations</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Monthly Challenges</a>
+                </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Latest Highlights</a>
+              </li>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search " placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search Blogs</button>
+              </form>
+
+        
+        </a>
+        
+      </div>
+    </nav>
+  
+    
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+           
+            <div class="container">
+              
+          </div>
+        </div>
+      </nav>
+    
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+    <style>
+        #parent {
+            width: 100%;
+            height: 90px;
+            white-space: nowrap;
+            overflow-x: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .child1,
+        .child2,
+        .child3 {
+            display: inline-block;
+            width: fit-content;
+            height: fit-content;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .child2 {
+            color: mediumseagreen;
+        }
+    </style>
+    <main id="content" role="main">
+        <div class="position-relative bg-flocard overflow-hidden">
+            <div class="container position-relative z-index-2 space-top-2 space-top-md-3 space-bottom-2 space-bottom-md-3">
+                <div id="parent">
+                    <div class="child1">#Better</div>
+                    <div class="child2">Planet</div>
+                    <div class="child3">Together</div>
+                </div>
+                <div class="w-md-80 w-xl-80 text-center mx-md-auto">
+                    <div style="position: relative; padding-bottom: 50%; height: 0; overflow: hidden;">
+                      <iframe  class="embed-responsive-item youtube" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/VjW4aORhMFo?rel=0&loop=1&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <nav aria-label="Page navigation example">
+                      <ul class="pagination">
+                        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                      </ul>
+                    </nav>
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+
+
+
+
+
+
+
